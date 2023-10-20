@@ -6,7 +6,7 @@ import { useState } from "react"
 const Nav = () => {
   const [toggle, setToggle] = useState(false)
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
+    <header className="padding-x py-8 absolute z-50 w-full">
       <nav className="flex justify-between items-center max-container">
         <a href="/">
           <img src={headerLogo} alt="Logo" width={130} height={29} />
